@@ -1,9 +1,89 @@
 {
-  "posts": [
-    { "id": 1, "11111": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
+  "businessDetails": 
+    {
+      "name":"Amrendra Barber Saloon Center",
+      "rating":4.5,
+      "ratingCount":12,
+      "category":"Saloon",
+      "startTime":480,
+      "endTime":1320,
+      "location":"New Delhi, India",
+      "description":"Eiusmod et qui reprehenderit dolor consectetur in sunt mollit. Cupidatat amet voluptate aliquip cupidatat irure et tempor tempor velit voluptate amet velit enim. Ea id ipsum esse reprehenderit sit duis mollit dolor ex voluptate reprehenderit ea elit. Nulla amet sunt eiusmod officia. \nIncididunt cupidatat consequat ut laborum. Nostrud sint aliqua Lorem laborum nostrud aliqua aliquip veniam duis Lorem. Consectetur adipisicing id ut nisi pariatur in veniam. Cillum cillum esse laborum laborum id officia fugiat duis elit mollit commodo magna consectetur voluptate. Veniam ea enim aliqua sint enim aliqua consectetur. Aliqua enim sunt ullamco mollit dolor sunt esse cupidatat minim reprehenderit qui minim quis amet.",
+
+      "phoneNumber":"+91 8675478553",
+      "aminities":["AC", "Fan","4w-Parking","Clening"],
+      "gallery":[""],
+      "pricing":[
+        {
+          "name":"HairCut",
+          "price":50
+        },
+        {
+          "name":"Shaving",
+          "price":70
+        },
+        {
+          "name":"Hair Coloring",
+          "price":120
+        },
+        {
+          "name":"Body Masaz",
+          "price":299
+        },
+        {
+          "name":"Katora Cut",
+          "price":99
+        }
+      
+      ],
+      "reviewDetails":[
+        {
+          "name":"Cleaning",
+          "rating":4.5
+        },
+        {
+          "name":"Behaviour",
+          "rating":5
+        },
+        {
+          "name":"Service",
+          "rating":5
+        },
+        {
+          "name":"customar engagement",
+          "rating":5
+        }
+
+      ],
+      "reviews":[
+        {
+          "name":"Peeyush Pawar",
+          "profileUrl":"",
+          "rating":5,
+          "location":"New Delhi, India",
+          "reviewContent":"Reprehenderit cillum reprehenderit sit eu. Consequat nostrud eiusmod cillum veniam excepteur ut non qui est Lorem aute. Sint ex id ea adipisicing proident et elit sit ex cillum."
+        },
+        {
+          "name":"Pramod Chaurasiya",
+          "profileUrl":"",
+          "rating":5,
+          "location":"New Delhi, India",
+          "reviewContent":"Reprehenderit cillum reprehenderit sit eu. Consequat nostrud eiusmod cillum veniam excepteur ut non qui est Lorem aute. Sint ex id ea adipisicing proident et elit sit ex cillum."
+        },
+        {
+          "name":"Tushti gulati",
+          "profileUrl":"",
+          "rating":5,
+          "location":"New Delhi, India",
+          "reviewContent":"Reprehenderit cillum reprehenderit sit eu. Consequat nostrud eiusmod cillum veniam excepteur ut non qui est Lorem aute. Sint ex id ea adipisicing proident et elit sit ex cillum."
+        }
+
+      ]
+
+    }
+
+    
+  ,
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
